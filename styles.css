@@ -32,9 +32,15 @@ input{
 
 button {
   background-color: #2DCD37;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
   margin: .5% 0 1% 0;
   padding: .5%;
   width: 20%;
+}
+
+button:hover {
+  background-color: #27B330;
 }
 
 .greeting {
