@@ -20,18 +20,22 @@ main {
 
 p {
   margin: 0 0 2% 0;
-
+  text-align: center;
 }
 
 input{
-  /* border-radius: 1%; */
   margin-bottom: .5%;
   padding: .5%;
   width: 20%;
 }
 
 button {
+  border-bottom: 3px inset #229A29;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
   background-color: #2DCD37;
+  border-radius: 5px;
   color: #FFF;
   font-family: 'Montserrat', sans-serif;
   margin: .5% 0 1% 0;
@@ -41,6 +45,7 @@ button {
 
 button:hover {
   background-color: #27B330;
+  border-bottom: 3px inset #1C8022;
 }
 
 .greeting {
