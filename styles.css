@@ -12,22 +12,32 @@ header h1 {
   text-align: center;
 }
 
-.greeting {
-
-}
-
 main {
+  display: flex;
+  flex-direction: column;
 
 }
 
-h3 {
+p {
+  margin: 0 0 2% 0;
 
 }
 
 input{
-
+  /* border-radius: 1%; */
+  margin-bottom: .5%;
+  padding: .5%;
+  width: 20%;
 }
 
 button {
+  background-color: #2DCD37;
+  margin: .5% 0 1% 0;
+  padding: .5%;
+  width: 20%;
+}
 
+.greeting {
+  margin: 0;
+  text-align: center;
 }
