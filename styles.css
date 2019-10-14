@@ -4,11 +4,18 @@ body {
   padding: 0;
 }
 
-header h1 {
+header {
   background-color: #471D8E;
+  /* color: #FFF; */
+  margin: 0;
+  /* padding: 1%; */
+  /* text-align: center; */
+}
+
+h1 {
   color: #FFF;
   margin: 0;
-  padding: 5%;
+  padding: 1%;
   text-align: center;
 }
 
