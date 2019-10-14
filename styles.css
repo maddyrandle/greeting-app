@@ -7,26 +7,31 @@ body {
 header h1 {
   background-color: #471D8E;
   color: #FFF;
-  margin-top: 0;
-  padding: 2%;
+  margin: 0;
   text-align: center;
 }
 
 main {
   display: flex;
   flex-direction: column;
-
+  margin: auto;
+  width: 80%;
 }
 
 p {
-  margin: 0 0 2% 0;
   text-align: center;
 }
 
+.container {
+  margin: auto;
+}
+
 input{
-  margin-bottom: .5%;
-  padding: .5%;
-  width: 20%;
+  border: 1px solid #cccccc;
+  border-radius: 1px;
+  margin-bottom: 2%;
+  padding: 3% 0 3% 0;
+  width: 100%;
 }
 
 button {
@@ -38,9 +43,9 @@ button {
   border-radius: 5px;
   color: #FFF;
   font-family: 'Montserrat', sans-serif;
-  margin: .5% 0 1% 0;
-  padding: .5%;
-  width: 20%;
+  margin-top: 2%;
+  padding: 3% 0 3% 0;
+  width: 100%;
 }
 
 button:hover {
@@ -49,6 +54,5 @@ button:hover {
 }
 
 .greeting {
-  margin: 0;
   text-align: center;
 }
